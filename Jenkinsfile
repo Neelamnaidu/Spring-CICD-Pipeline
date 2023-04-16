@@ -32,7 +32,7 @@ pipeline {
         }
         stage("Dev Quality gate") {
             when {
-                branch 'Development'
+                branch 'Dev'
             }
             steps {
                 waitForQualityGate abortPipeline: true
