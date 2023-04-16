@@ -25,7 +25,7 @@ pipeline {
                      sh "mvn clean verify sonar:sonar \
                      -Dsonar.projectKey=spring-boot-app-dev \
                      -Dsonar.projectName=spring-boot-app-dev \
-                     -Dsonar.host.url=http://ec2-44-195-60-191.compute-1.amazonaws.com:9000"
+                     -Dsonar.host.url=http://ec2-44-195-37-224.compute-1.amazonaws.com:9000"
                 }
 
             }
